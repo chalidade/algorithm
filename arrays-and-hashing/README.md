@@ -1,7 +1,7 @@
 # 📑 Arrays & Hashing — Table of Contents
 
 ## **Junior Level**
-- [Two Sum](#)
+- [Two Sum](https://github.com/chalidade/algorithm/blob/main/arrays-and-hashing/two-sum.md)
 - [Valid Anagram](#)
 - [Contains Duplicate](#)
 - [Move Zeroes to End While Maintaining Order](#)
