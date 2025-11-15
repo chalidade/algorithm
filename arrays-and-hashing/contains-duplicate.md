@@ -41,9 +41,9 @@ class Solution {
         // 1. Create map to store num and value
         const countNum = new Map();
 				
-				// 2. Iterate array num
+		// 2. Iterate array num
         for(const num of nums) {
-		        // 3. create variable count for checking 
+			// 3. create variable count for checking 
             const count = countNum.get(num);
             
             // 4. check if is count more than one it means duplicate
@@ -51,12 +51,12 @@ class Solution {
                 return true;
             }
 						
-						// 5. save count each number
+			// 5. save count each number
             countNum.set(num, (countNum.get(num) || 0) + 1);
 
         } 
 				
-				// 6. No duplicate
+		// 6. No duplicate
         return false;
     }
 }
@@ -76,7 +76,7 @@ class Solution {
         
         // 2. iterate nums as num
         for (const num of nums) {
-		        // 3. if num has seen or has stored, it mean duplicate 
+		    // 3. if num has seen or has stored, it mean duplicate 
             if (hasSeen.has(num)) {
                 return true;
             }
@@ -100,7 +100,8 @@ class Solution {
      * @return {boolean}
      */
     hasDuplicate(nums) {
-		    // Because Set always store unique value, we can simple check size between object Sets and nums. if it's different it mean there's duplicate number. 
+		// Because Set always store unique value, we can simple check size between object Sets and nums.
+		// if it's different it mean there's duplicate number. 
         return new Set(nums).size < nums.length;
     }
 }
