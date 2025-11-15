@@ -1,4 +1,4 @@
-# 📚 Data Structures & Algorithms
+# 📚 Data Structures & Algorithms  
 *A curated collection of problem-solving patterns, algorithm implementations, and DSA learning notes.*
 
 > **“An algorithm is a step-by-step procedure for solving a problem.”**  
@@ -16,43 +16,52 @@ As a software developer with experience building scalable systems and high-perfo
 - Solve technical interview problems  
 - Build a strong engineering foundation  
 
-This repo grows continuously as I learn, revise, and solve real-world DSA challenges.
+This repository grows continuously as I learn, revise, and solve real-world DSA challenges.
 
 ---
 
 ## 🧠 What’s Inside?
 The learning path follows major DSA categories commonly used in interviews, competitive programming, and real-world development.
 
-### 📂 Topics Covered
+### 📂 Topics Covered  
+Based on the repository structure:
 
-| Category | Description |
-|---------|-------------|
-| **Arrays & Hashing** | 57 questions – fundamentals of data storage, hashing, and lookups |
-| **Binary Search** | 3 questions – efficient searching on sorted structures |
-| **Bit Manipulation** | 12 questions – optimization using binary operations |
-| **Blind 75** | 75 essential interview problems |
-| **Dynamic Programming** | 24 questions – optimal substructure & overlapping subproblems |
-| **Graphs** | 52 questions – BFS, DFS, shortest path, cycles |
-| **Greedy** | 5 questions – optimal local decisions |
-| **Heaps** | 33 questions – min/max heap, priority queues |
-| **Intervals** | 5 questions – merge, scheduling, overlapping intervals |
-| **Linked Lists** | 31 questions – pointers, traversal, reversal |
-| **Math & Geometry** | 9 questions – math-based algorithms |
-| **Matrix** | 7 questions – grid-based problems |
-| **Queues** | 17 questions – FIFO operations |
-| **Recursion** | 15 questions – backtracking, divide & conquer |
-| **Search Algorithms** | 23 questions – BFS, DFS exploration |
-| **Sliding Window** | 5 questions – substring optimization |
-| **Sorting Algorithms** | 18 questions – comparison, non-comparison sorts |
-| **Stacks** | 34 questions – LIFO, parsing, monotonic stacks |
-| **TechPrep 100** | 100 curated practice questions |
-| **Trees** | 44 questions – traversals, BST, binary trees |
-| **Tries** | 25 questions – prefix trees |
-| **Two Pointers** | 6 questions – array pointer strategies |
+```
+📦 dsa-learning
+ ┣ 📂 arrays-and-hashing
+ ┣ 📂 binary-search
+ ┣ 📂 bit-manipulation
+ ┣ 📂 blind-75
+ ┣ 📂 dynamic-programming
+ ┣ 📂 graphs
+ ┣ 📂 greedy
+ ┣ 📂 heaps
+ ┣ 📂 intervals
+ ┣ 📂 linked-list
+ ┣ 📂 math-and-geometry
+ ┣ 📂 matrix
+ ┣ 📂 queues
+ ┣ 📂 recursion
+ ┣ 📂 search-algorithm
+ ┣ 📂 sliding-window
+ ┣ 📂 sorting-algorithm
+ ┣ 📂 stacks
+ ┣ 📂 tech-preparation
+ ┣ 📂 trees
+ ┣ 📂 tries
+ ┣ 📂 two-pointers
+ ┗ 📄 README.md
+```
+
+Each topic includes:  
+- 📝 Explanation  
+- 🧩 Problem-solving patterns  
+- 💡 Code implementations  
+- 🏹 Practice questions  
 
 ---
 
-## 🧩 Code Example
+## 🧩 Example Code Snippet  
 
 ```ts
 function twoSum(nums: number[], target: number): number[] {
@@ -67,7 +76,6 @@ function twoSum(nums: number[], target: number): number[] {
 
     map.set(nums[i], i);
   }
-
   return [];
 }
 ```
@@ -86,50 +94,46 @@ function twoSum(nums: number[], target: number): number[] {
 - Prepare for senior-level technical interviews  
 - Improve problem-solving and logical thinking  
 - Create a structured, shareable knowledge base  
-- Build a habit of writing optimized and clean code  
+- Build a consistent coding practice habit  
 
 ---
 
-## 🗂️ Repository Structure
-
-```
-📦 dsa-learning
- ┣ 📂 arrays-and-hashing
- ┣ 📂 binary-search
- ┣ 📂 dynamic-programming
- ┣ 📂 graphs
- ┣ 📂 heaps
- ┣ 📂 sliding-window
- ┣ 📂 trees
- ┣ 📂 tries
- ┣ 📂 recursion
- ┗ 📄 README.md
-```
-
----
-
-## 🚀 About Me
+## 🚀 About Me  
 **Chalid Ade Rahman**  
-Senior Front-End Developer | API & Scalable Web App Specialist  
-5+ Years Remote Experience in EdTech, Logistics & Non-Profit  
-
-- Expert in React.js, Next.js, TypeScript  
-- Strong problem-solving mindset  
-- Passionate about algorithms, optimization, and systems engineering  
+Senior Front-End Developer • API & Scalable Web App Specialist  
+5+ Years Remote Experience in EdTech, Logistics, and Non-Profit  
 
 ---
 
-## ⭐ Support & Contribution
-If you find this repository helpful:
+## 📬 Contact  
+Feel free to reach out for collaboration, discussion, or opportunities:
 
-👍 **Star this repo** to support  
-🔁 Pull requests are welcome  
-🐛 Issues and improvements are open for discussion  
+- **📍 Location:** East Java, Indonesia  
+- **📞 Phone:** +6285784566522  
+- **📧 Email:** chalidade@gmail.com  
+- **🔗 LinkedIn:** https://linkedin.com/in/chalidaderahman  
 
 ---
 
-## 🏁 Final Words
-This repository is a long-term learning journey.  
-Every algorithm added represents growth, improvement, and consistency.
+## ☕ Support My Work  
+If you'd like to support my learning journey or say thank you:
+
+👉 **Buy me a coffee:** https://teer.id/chalidade  
+
+Your support means a lot and helps me continue writing, learning, and sharing!
+
+---
+
+## ⭐ Support & Contribution  
+If this repository helps you:  
+- ⭐ **Star the repo**  
+- 🔁 Submit PRs  
+- 🐛 Open issues  
+
+---
+
+## 🏁 Final Words  
+This repository reflects continuous learning and growth.  
+Every folder, every problem, is a step toward mastery.
 
 > **“Practice makes improvement — consistency makes mastery.”**
