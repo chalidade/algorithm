@@ -25,6 +25,7 @@ Output: [1, 3]
 - `−10⁷ <= nums[i] <= 10⁷`
 - `−10⁷ <= target <= 10⁷`
 
+# Code Solution
 ```jsx
 class Solution {
     /**
