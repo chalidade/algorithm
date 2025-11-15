@@ -85,7 +85,7 @@ The flow to solve this exercise
 
 - Create **Map** to mapping value and index
 - Then Iterate array as one way from left to right
-- Get complement value using formulas **complement = target - current_number**
+- Get complement value using formulas `complement = target - current_number`
 - Check is **complement value** has found in Map
 - If yes, show **index** for **complement value** and **current index** because we iterate data from left to the right, **complement index** should always smaller than **current index**
 - If the data / case not as the constraints or requirement return empty array
