@@ -1,31 +1,47 @@
-# Two Sum
+# 🧮 Two Sum
 
-> Given an integer array `nums` and an integer `target`, find indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.Assume that every input has exactly one pair of indices `i` and `j` that fulfill this condition.Return the pair of indices with the smaller index first.
-> 
-
-### Example 1:
+Given an integer array `nums` and an integer `target`, find indices `i` and `j` such that:
 
 ```
-Input: nums = [1, 2, 3, 4], target = 5
+nums[i] + nums[j] == target
+i != j
+```
+
+Assume that every input has **exactly one valid pair**.  
+Return the pair of indices with the **smaller index first**.
+
+---
+
+## 📌 Problem Description
+
+- Given an integer array `nums` and an integer `target`, find indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.  
+- Assume that every input has exactly one pair of indices `i` and `j` that fulfill this condition.  
+- Return the pair of indices with the smaller index first.
+
+### Example 1
+
+```
+Input:  nums = [1, 2, 3, 4], target = 5
 Output: [0, 3]
-
-Explanation: nums[0] + nums[3] == 5, so we return [0, 3].
 ```
 
-### Example 2:
+### Example 2
 
 ```
-Input: nums = [0, -1, 2, -3, 1], target = -2
+Input:  nums = [0, -1, 2, -3, 1], target = -2
 Output: [1, 3]
 ```
 
-### Constraints:
+### Constraints
 
-- `2 <= nums.length <= 10³`
-- `−10⁷ <= nums[i] <= 10⁷`
-- `−10⁷ <= target <= 10⁷`
+- 2 <= nums.length <= 10³  
+- −10⁷ <= nums[i] <= 10⁷  
+- −10⁷ <= target <= 10⁷  
 
-# Code Solution
+---
+
+## ✅ Code Solution
+
 ```jsx
 class Solution {
     /**
@@ -62,9 +78,8 @@ class Solution {
 }
 ```
 
----
 
-### **My Summary**
+## 🧾 **My Summary**
 
 The flow to solve this exercise 
 
@@ -77,7 +92,7 @@ The flow to solve this exercise
 
 ---
 
-### Detailed Explanation of the Two Sum Solution
+## 💡 Detailed Explanation of the Two Sum Solution
 
 The core idea of the efficient solution for the Two Sum problem is the principle of **"Trading Search Time for Storage Space"** using a data structure called a **Hash Map** (or `Map` in JavaScript).
 
@@ -129,3 +144,24 @@ If the answer is **NO**:
 1. The pair has not been found yet.
 2. We **store** the `currentNum` and its index (`i`) into the map: `numMap.set(currentNum, i)`.
 3. **Purpose:** This number is now available as a potential **Complement** for any numbers that appear **later** in the array.
+
+---
+
+## ⏱️ Complexity
+
+- **Time Complexity:** `O(n)`  
+- **Space Complexity:** `O(n)`  
+
+---
+
+## 🧪 Example Usage
+
+```js
+const solution = new Solution();
+console.log(solution.twoSum([1, 2, 3, 4], 5));        // [0, 3]
+console.log(solution.twoSum([0, -1, 2, -3, 1], -2)); // [1, 3]
+```
+
+---
+
+> This problem is a great introduction to optimization using **hash maps**, reducing time complexity from O(n²) → O(n).
